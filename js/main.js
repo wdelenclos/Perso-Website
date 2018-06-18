@@ -21,7 +21,7 @@ function addZero(i) {
 
 var sts = ""
 
-if(currentHour> 9 && currentHour < 22){
+if(currentHour >= 9 && currentHour <= 22){
     sts = "<span style=\"color: #50bf59 \"> joignable</span>";
 }
 else{
